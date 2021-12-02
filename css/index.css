@@ -1,0 +1,43 @@
+
+.category-list-area .category-list-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .category-list-area .category-list-wrapper .category-list-item a {
+    display: block;
+    text-align: center;
+    width: 210px;
+    background: rgb(248, 246, 246);
+    border-radius: 5px;
+    padding: 40px 25px;
+    margin: 15px;
+    border: 1px solid rgba(124, 134, 154, 0.25);
+    box-shadow: 0px 3px 35px rgba(218, 222, 228, 0.3);
+  }
+  
+  .category-list-area .category-list-wrapper .category-list-item a:hover {
+    background-color: #081828;
+  }
+  
+  .category-list-area .category-list-wrapper .category-list-item a:hover .icon, .category-list-area .category-list-wrapper .category-list-item a:hover h3 {
+    color: #fff;
+  }
+  
+  .category-list-area .category-list-wrapper .category-list-item a .icon {
+    font-size: 35px;
+    margin-bottom: 10px;
+    line-height: 1;
+    color: #FF6B6B;
+    transition: all 0.3s ease-out 0s;
+  }
+  
+  .category-list-area .category-list-wrapper .category-list-item a h3 {
+    font-weight: 400;
+    color: #333F57;
+    transition: all 0.3s ease-out 0s;
+  }
+
+/**/
